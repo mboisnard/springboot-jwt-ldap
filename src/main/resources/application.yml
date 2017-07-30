@@ -1,0 +1,12 @@
+security:
+  basic:
+    enabled: false
+
+ldap:
+  provider:
+    url: ldap://host:port
+    userdn: CN=Your_Account,OU=xxx,OU=yyy,OU=your_service,DC=company,DC=com
+    password: xxx
+  user:
+    dn:
+      patterns: CN={0},OU=aaa,OU=bbb,DC=company,DC=com
